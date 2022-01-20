@@ -1,0 +1,50 @@
+/* style.css */
+
+body {
+    font-family: 'Roboto', sans-serif;
+}
+
+ul {
+    list-style: none;
+    padding: 0;
+    margin: 0;
+}
+
+a {
+    text-decoration: none;
+    color: #E5E7EB;
+}
+
+.hero {
+    background-color: #1F2937;
+}
+
+.header {
+    display: flex;
+}
+
+.hero-content {
+    display: flex;;
+}
+
+.header-logo,
+.hero-main-text {
+    color: #F9FAF8;
+}
+
+.header-links,
+.hero-sec-text,
+.hero-image {
+    color: #E5E7EB;
+    font-size: 18px;
+}
+
+.header-logo {
+    font-size: 24px;
+    font-weight: bold;
+}
+
+.hero-main-text {
+    font-size: 48px;
+    font-weight: bold;
+}
