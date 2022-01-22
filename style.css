@@ -72,7 +72,7 @@ button {
 
 .hero-main-text {
     font-size: 48px;
-    font-weight: bold;
+    font-weight: 800;
     width: 450px;
 }
 
@@ -96,9 +96,10 @@ button {
 
 .button-hero {
     border: 1px solid #3882F6;
-    width: 120px;
+    width: 150px;
     padding: 6px 0px;
     font-size: 18px;
+    font-weight: 500;
 }
 
 .information {
@@ -163,4 +164,36 @@ button {
     font-weight: bold;
     width: 830px;
     text-align: right;
+}
+
+.action {
+    padding: 75px 400px;
+}
+
+.action-content {
+    background-color: #3882F6;
+    border-radius: 8px;
+    color: white;
+    padding: 50px 150px;
+    display: flex;
+    justify-content: space-between;
+}
+
+.action-main-text {
+    font-size: 22px;
+    font-weight: 800;
+}
+
+.action-sec-text {
+    color: #E5E7EB;
+    font-size: 18px;
+}
+
+.action-button {
+    border: 2px solid white;
+    width: 150px;
+    height: 35px;
+    font-size: 18px;
+    font-weight: 500;
+    align-self: flex-end;
 }
