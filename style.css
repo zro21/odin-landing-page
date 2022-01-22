@@ -49,8 +49,7 @@ button {
 .hero-image {
     width: 560px;
     height: 225px;
-    flex-grow: 1;
-    flex-shrink: 1;
+    flex: 1;
 }
 
 .header-logo,
@@ -68,6 +67,7 @@ button {
 .header-logo {
     font-size: 24px;
     font-weight: 800;
+    flex-shrink: 0;
 }
 
 .hero-main-text {
@@ -167,7 +167,7 @@ button {
 }
 
 .action {
-    padding: 75px 400px;
+    padding: 100px 400px;
 }
 
 .action-content {
@@ -196,4 +196,15 @@ button {
     font-size: 18px;
     font-weight: 500;
     align-self: flex-end;
+}
+
+.footer {
+    background-color: #1F2937;
+}
+
+.footer-text {
+    padding: 30px;
+    color: #E5E7EB;
+    font-size: 18px;
+    text-align: center;
 }
