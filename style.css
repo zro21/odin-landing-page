@@ -49,7 +49,8 @@ button {
 .hero-image {
     width: 560px;
     height: 225px;
-    flex: 1 0 auto;
+    flex-grow: 1;
+    flex-shrink: 1;
 }
 
 .header-logo,
@@ -101,7 +102,7 @@ button {
 }
 
 .information {
-    
+    padding-bottom: 100px;
 }
 
 .information-header {
@@ -122,11 +123,11 @@ button {
 .information-list-icon,
 .information-list-text {
     display: flex;
-    gap: 50px;
+    gap: 80px;
 }
 
 .information-list-text {
-    width: 782px;
+    width: 872px;
 }
 
 .information-icon {
@@ -138,6 +139,28 @@ button {
 
 .information-text {
     width: 158px;
-    height: 150px;
     color: rgb(78, 76, 76);
+}
+
+.quote {
+    background-color: #E5E7EB;
+    padding: 100px 0px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.quote-text {
+    color: #1F2937;
+    font-size: 36px;
+    font-weight: 300;
+    font-style: italic;
+    width: 830px;
+}
+
+.quote-signature {
+    font-size: 22px;
+    font-weight: bold;
+    width: 830px;
+    text-align: right;
 }
